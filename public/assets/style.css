@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 896px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    border: 5px solid #F49905;
+    background: linear-gradient(180deg, #FFF 0%, #F2F0F0 100%);
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper-img {
+    margin-left: 14px;
+    margin-right: 15px;
+
+}
+
+.wrapper-sidebar {
+    display: inline-flex;
+    padding: 0px 23px 0px 33px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrapper-title {
+    width: 51px;
+    height: 25px;
+    color: #FF591D;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper-span {
+    color: #0386D0;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.wrapper-text {
+    width: 183px;
+    height: 66px;
+    color: #6B5E5E;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 207.143% */
+}
+
+.wrapper-klok {
+    margin-top: -22px;
+    margin-right: 23px;
+    margin-left: 224px;
+    position: absolute;
+    width: 107px;
+    height: 108px;
+}
+
+.wrapper-user {
+
+    width: 312px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 49px;
+    background: #FFF;
+    box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.21);
+    margin-top: 16px;
+    border: none;
+
+}
+
+.wrapper-lock {
+    width: 312px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: #FFF;
+    box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.30);
+    margin-top: 22px;
+    border: none;
+}
+
+.row {
+    text-align: center;
+}
+
+.wrapper-logo-mail {
+    position: absolute;
+    left: 323px;
+    top: 294px;
+}
+
+.wrapper-logo-lock {
+    position: absolute;
+    left: 323px;
+    top: 361px;
+}
+
+.wapper-remember {
+    display: flex;
+    /* Sử dụng flexbox để căn chỉnh các phần tử ngang hàng */
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.wrapper-tick {
+    width: 24.163px;
+    height: 21px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(146, 137, 137, 0.25);
+    margin-right: 10px;
+
+}
+
+.wrapper-pass {
+    width: 156.482px;
+    color: #6B5E5E;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.wapper-forger {
+    width: 109px;
+    color: #4D7EF9;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+.wrapper-login {
+    display: flex;
+    /* Sử dụng flexbox để căn giữa nút button */
+    justify-content: center;
+    /* Căn giữa theo trục ngang */
+    margin-top: 25px;
+
+
+}
+
+.wrapper-btn-login {
+    border: none;
+    margin-right: 9px;
+    color: #FFF;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 151px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    background: linear-gradient(135deg, #E89F16 0%, #FFAF18 100%);
+    box-shadow: 9px -9px 18px 0px rgba(110, 75, 10, 0.02), -9px 9px 18px 0px rgba(110, 75, 10, 0.11), -1px -1px 2px 0px rgba(110, 75, 10, 0.50) inset, 1px 1px 2px 0px rgba(255, 255, 36, 0.30) inset;
+}
+
+.wrapper-btn-register {
+    width: 151px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    color: #FF5E1D;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FF8551;
+}
+
+.wrapper-touch {
+    margin-top: 18px;
+
+}
+
+.wrapper-id {
+    color: #6B5E5E;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    /* Sử dụng flexbox để căn giữa nút button */
+    justify-content: center;
+    /* Căn giữa theo trục ngang */
+}
+
+.wrapper-logo-touch {
+    display: flex;
+    /* Sử dụng flexbox để căn giữa nút button */
+    justify-content: center;
+    /* Căn giữa theo trục ngang */
+    margin-top: 15px;
+}
+
+.wrapper-with {
+    color: #747070;
+    font-family: Coda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    /* Sử dụng flexbox để căn giữa nút button */
+    justify-content: center;
+    /* Căn giữa theo trục ngang */
+    margin-top: 20px;
+}
+
+.wrapper-contact {
+    display: inline-flex;
+    padding: 11px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 15px;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-facebook {
+    display: flex;
+    padding: 4px 57px 3px 5px;
+    align-items: center;
+    gap: 28px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper-text-fb {
+    color: #747070;
+    font-family: Coda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.wrapper-instagram {
+    display: flex;
+    padding: 4px 53px 3px 5px;
+    align-items: center;
+    gap: 28px;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper-text-ig {
+    color: #747070;
+    font-family: Coda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.wrapper-linkedin {
+    display: flex;
+    padding: 4px 57px 3px 5px;
+    align-items: center;
+    gap: 28px;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper-text-li {
+    color: #747070;
+    font-family: Coda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
